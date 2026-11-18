@@ -1,0 +1,37 @@
+{
+  "project": "YSA_31040_20261118",
+  "seed_base": 31040,
+  "method": "manual",
+  "candidate": "M3",
+  "config": {
+    "optimizer": "sgd",
+    "hidden": [
+      32
+    ],
+    "scaler": "standard",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "activation": "relu",
+    "dropout": 0.0,
+    "scheduler": true,
+    "clipping": false,
+    "id": "M3"
+  },
+  "development_inner_mean_ap": 0.4260203427253069,
+  "development_inner_sd_ap": 0.030609439004779405,
+  "selection_policy": "highest full-development inner CV mean AP, candidate ID tie break",
+  "selection_metric": "average_precision",
+  "threshold": 0.5,
+  "split_sha256": "f835a2bbdc23d3b607197ff37745a3bbc50e858b50a2ed365021f3b33c5a59aa",
+  "raw_data_sha256": "7e59cf650004d65d1c9d6b08553bad2ee9a9ad70d594f536e3c584ee6ed5df50",
+  "stage2_plan_sha256": "e590f5afce2adf98f6b19cb35c1c1fcbdd5445d99929aa5495978b51f89bd1ba",
+  "primary_initialization_seed": 31077,
+  "initialization_seeds": [
+    31077,
+    31178,
+    31279
+  ],
+  "test_status": "UNSEEN — DO NOT evaluate until locked predictions are committed",
+  "code_version": "stage2-seed31040-v1"
+}
